@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+
+		<link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">
+
+    <script src="app.js"></script>
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Action Menu</title>
+  </head>
+<body>
+	<div class="container" style="display: none;">
+		<div class="background">
+
+			<div class="box-opstions">
+				<button id="init" class="options active"><img src="assets/init.svg"><br/>INICIO</button>
+				<button id="settings" class="options"><img src="assets/settings.svg"><br/>CONFIGURAÇÕES</button>
+				<button id="map" class="options"><img src="assets/map.svg"><br/>MAPA</button>
+				<button id="report" class="options">                   
+					<span class="aviso">EM BREVE</span>
+					<img src="assets/report.svg"><br/>REPORTAR</button>
+				<button id="exit" class="options"><img src="assets/quit.svg"><br/>DESCONECTAR</button>
+			</div>
+				
+			<div class="box-center">
+				<div class="name"><div class="info-center">SEU NOME:<br/><b id="name">JOÃO GOMES</b></div></div>
+				<div class="id"><div class="info-center">SEU ID:<br/><b id="user_id">23</b></div></div>
+				<div class="players"><div class="info-center">TOTAL DE PLAYERS:<br/><b id="players">500</b><span>/2049</span></div></div>
+				<div class="horas"><div class="info-center">HORAS JOGADAS:<br/><b id="time">23:34:00</b></div></div>
+				<div class="store">
+					<img src="assets/store-img.png">
+					<div class="store-center">VISITE NOSSA<br/><b>LOJA ONLINE</b><br><span>RECEBA UM CUPOM DE 2O% DE DESCONTO</span></div>
+					<button id="store" class="store-icon"><img src="assets/globe.svg"></button>
+				</div>
+				<div class="discord">
+					<div class="discord-top"><img src="assets/discord.svg">DISCORD<br/>
+						<span>Fique por dentro de nossas futuras novidades!!</span>
+					</div>
+					<button id="discord" class="discord-end">ENTRAR</button>
+				</div>
+				<div class="cupom">
+					<img src="assets/cupom-img.png">
+					<div class="cupom-center">UTILIZE 0 CUPOM<br/><b>INAUGURAÇÃO<span>20%</span>OFF</b></div>
+				</div>
+				<div class="action">
+					<div class="action-end">
+						<div class="action-init">ACTION <b>ROLEPLAY</b></div>
+						<p><b>Action Roleplay</b> é um servidor inovador no FiveM, criado por jogadores para jogadores que procuram uma jogabilidade moderna e de alta qualidade.</p>
+					</div>
+					<img src="assets/action-img.png">
+				</div>
+				<div class="infos">
+					<div class="infos-top">SUAS INFORAÇÕES:
+							<div class="infos-itens">
+								<div class="cellphone"><img src="assets/cellphone.svg"><b id="cellphone">999-999</b></div>
+								<div class="group"><img src="assets/briefcase.svg"><b id="group">Police</b></div>
+								<div class="bank"><img src="assets/bank.svg"><b id="bank">000</b></div>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div class="box-social">
+					<button id="instagram" class="social"><img src="assets/instagram.svg"></button>
+					<button id="tiktok" class="social"><img src="assets/tiktok.svg"></button>
+					<button id="youtube" class="social"><img src="assets/youtube.svg"></button>
+				</div>
+
+			</div>
+		</div>
+	</body>
+	</html>
